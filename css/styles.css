@@ -1,0 +1,165 @@
+:root {
+     --primario:    #71b100;
+     --secundario:  #e08709;
+}
+
+body {
+     font-family: 'Lato', sans-serif;
+}
+
+hr {
+     border: 3px solid #e08709;
+}
+
+.masinfo {
+     color: #ffffff;
+     background-color: #e08709;
+}
+.masinfo:hover {
+     color: #000000;
+}
+.precio {
+     font-size: 2.3rem;
+}
+.col-sm-4 .precio {
+     font-size: 2rem;
+}
+
+.barra.bg-success {
+     background-color: #71b100!important;
+}
+
+@media(min-width: 768px) {
+     .barra.bg-success{
+          background-color: transparent!important;
+     }
+
+     .header {
+          position: relative;
+     }
+     .header .barra {
+          position: absolute;
+          z-index: 100;
+          width: 100%;
+     }
+}
+
+.navbar-brand {
+     font-size: 2rem;
+     font-weight: 300;
+}
+
+.navbar-brand span {
+     font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+     color: #ffffff;
+     text-transform: uppercase;
+}
+
+.dropdown-menu {
+     background-color: #71b100;
+}
+.dropdown-menu .dropdown-item {
+     color:#ffffff;
+     text-transform: uppercase;
+}
+
+.dropdown-menu .dropdown-item:hover {
+     background-color:#e08709;
+}
+
+.col-md-4 h4 {
+     text-transform: uppercase;
+}
+
+/** Anuncios */
+.card-precio {
+     font-size: 1.3rem;
+     color:#71b100;
+}
+.card-precio.alquiler{
+     font-size: 1.3rem;
+     color: #f0850b;
+}
+.card-descripcion img{
+     margin-right: .5rem;
+}
+
+/** Encuentra */
+.encuentra {
+     background-image: url(../img/contacto.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.encuentra .row {
+     height: 25rem;    
+}
+
+.encuentra h3 {
+     font-size: 2.5rem;
+     font-weight: 900;
+}
+
+/** Blog */
+.entrada h3:after {
+     content:'';
+     display: block;
+     width: 8rem;
+     height: .2rem;
+     background-color: #71b100;
+     margin-top: .5rem;
+}
+.meta span {
+     color: #e08709;
+}
+
+.btn-success {
+     background-color: #71b100;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+
+.btn-success:hover {
+     background-color: #597c1c;
+}
+
+/* Testimoniales */
+.testimoniales {
+     background-color: #71b100;
+}
+
+.testimoniales .carousel-item {
+     padding-left: 3rem;
+}
+
+.testimoniales .testimonial-texto {
+     font-size: 1.2rem;
+     line-height: 2rem;
+     font-weight: 400;
+}
+
+.testimoniales .testimonial-texto::before {
+     content: open-quote;
+     font-size: 4rem;
+     position: absolute;
+     left: 0;
+     top: 1rem;
+     font-weight: 900;
+}
+
+.testimoniales span {
+     font-size: 1.4rem;
+     font-weight: 900;
+}
+
+.footer.bg-dark {
+     background-color: #444444;
+}
+
+.footer .nav-link {
+     color: #ffffff;
+     text-transform: uppercase;
+}
